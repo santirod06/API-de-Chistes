@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('foto.jpg');
+    color: #333; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+#todo {
+    background-color: #fff; 
+    padding: 20px;
+    border-radius: 8px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    text-align: center; 
+    width: 300px;
+}
+
+.chiste {
+    margin: 20px 0; 
+    font-size: 18px; 
+    font-style: italic; 
+    color: #7a7a7a; 
+}
+
+.btn {
+    background-color: #1278e4; 
+    color: white;
+    border: none; 
+    padding: 10px 15px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    transition: background-color 0.3s; 
+}
